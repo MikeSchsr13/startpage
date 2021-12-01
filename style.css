@@ -78,10 +78,10 @@ main {
 	transition: 100ms;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
-.container-logo:active {
+/* .container-logo:active {
 	transform: translate(-50%, -50%) scale(0.9) ;
 	box-shadow: none;
-}
+} */
 
 img {
 	height: 50px;
@@ -123,4 +123,9 @@ img {
 	.section {
 		width: 880px;
 	}
+}
+
+.click-animation:active{
+	transform: translate(-50%, -50%) scale(0.9) ;
+	box-shadow: none;
 }
